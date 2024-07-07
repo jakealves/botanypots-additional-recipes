@@ -1,7 +1,7 @@
 {
   "type": "botanypots:crop",
   "seed": {
-    "item": "passinggas:cabbage_seed"
+    "item": "passinggas:cabbage_seeds"
   },
   "categories": ["dirt", "farmland"],
   "growthTicks": 1200,
@@ -21,7 +21,7 @@
     {
       "chance": 0.05,
       "output": {
-        "item": "passinggas:cabbage_seed"
+        "item": "passinggas:cabbage_seeds"
       },
       "minRolls": 1,
       "maxRolls": 1
@@ -30,7 +30,7 @@
   "bookshelf:load_conditions": [
     {
       "type": "bookshelf:item_exists",
-      "values": ["passinggas:cabbage_seed"]
+      "values": ["passinggas:cabbage_seeds"]
     }
   ]
 }
