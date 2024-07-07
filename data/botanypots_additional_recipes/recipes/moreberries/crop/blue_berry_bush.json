@@ -1,0 +1,46 @@
+{
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "moreberries:blue_berries"
+  },
+  "categories": ["dirt"],
+  "growthTicks": 1200,
+  "lightLevel": 14,
+  "display": {
+    "type": "botanypots:transitional",
+    "phases": [
+      {
+        "block": "moreberries:blue_berry_bush",
+        "properties": {
+          "age": 0
+        }
+      },
+      {
+        "block": "moreberries:blue_berry_bush",
+        "properties": {
+          "age": 1
+        }
+      },
+      {
+        "block": "moreberries:blue_berry_bush",
+        "properties": {
+          "age": 2
+        }
+      }
+    ]
+  },
+  "drops": [
+    {
+      "chance": 1.0,
+      "output": {
+        "item": "moreberries:blue_berries"
+      }
+    },
+    {
+      "chance": 0.05,
+      "output": {
+        "item": "moreberries:blue_berries"
+      }
+    }
+  ]
+}

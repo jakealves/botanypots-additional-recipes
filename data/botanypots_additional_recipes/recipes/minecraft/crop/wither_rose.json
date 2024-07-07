@@ -1,0 +1,26 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:item_exists",
+      "values": ["minecraft:wither_rose"]
+    }
+  ],
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "minecraft:wither_rose"
+  },
+  "categories": ["dirt"],
+  "growthTicks": 1200,
+  "display": {
+    "type": "botanypots:aging",
+    "block": "minecraft:wither_rose"
+  },
+  "drops": [
+    {
+      "chance": 1.0,
+      "output": {
+        "item": "minecraft:wither_rose"
+      }
+    }
+  ]
+}
