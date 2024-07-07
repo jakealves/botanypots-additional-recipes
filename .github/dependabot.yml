@@ -5,14 +5,14 @@
 
 version: 2
 updates:
-  - package-ecosystem: "github-actions" # See documentation for possible values
-    directory: "/" 
+  - package-ecosystem: 'github-actions' # See documentation for possible values
+    directory: '/'
     schedule:
-      interval: "daily"
-      time: "09:00"
-      timezone: "America/New_York"
-    commit-message: 
-      prefix: "chore: "
-      include: "scope"
+      interval: 'daily'
+      time: '09:00'
+      timezone: 'America/New_York'
+    commit-message:
+      prefix: 'chore: '
+      include: 'scope'
     reviewers:
-      - "osfanbuff63" # IMPORTANT: change to your username so you don't request me :P
+      - 'osfanbuff63' # IMPORTANT: change to your username so you don't request me :P

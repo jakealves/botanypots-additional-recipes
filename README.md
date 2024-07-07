@@ -4,7 +4,7 @@
 
 A template for a Minecraft datapack on GitHub! This is meant for new players to the datapack community, who don't know much about how datapacks work, or the dos and don'ts of datapacks. Check out the data folder to learn more! This is currently for Minecraft 1.20.3/1.20.4, but there's [details on how to downgrade from this template below](#downgrading-the-pack).
 
-It's worth noting that this is *not* the vanilla datapack of Minecraft (as publishing that would violate the Minecraft EULA), but rather a template for a custom one.
+It's worth noting that this is _not_ the vanilla datapack of Minecraft (as publishing that would violate the Minecraft EULA), but rather a template for a custom one.
 
 This also includes:
 
@@ -27,12 +27,12 @@ These are two files that determine, in part, your datapack's apperance in the Mi
 
 #### pack.mcmeta
 
-The `pack.mcmeta` file is what tells Minecraft what version of Minecraft your pack is made for, and users of what it is about. It is written in JSON, so be careful!  This file is required, otherwise your datapack will not load. First, let's start with `pack_format`:
+The `pack.mcmeta` file is what tells Minecraft what version of Minecraft your pack is made for, and users of what it is about. It is written in JSON, so be careful! This file is required, otherwise your datapack will not load. First, let's start with `pack_format`:
 
 The `pack_format` key is what tells Minecraft what version of Minecraft your pack is made for. In most cases, datapacks will work in a version greater than the version it was made for, but not always the other way around. Here's a handy table:
 
 | Minecraft version | `pack_format` |
-|-------------------|---------------|
+| ----------------- | ------------- |
 | 1.13 - 1.14.4     | 4             |
 | 1.15 - 1.16.1     | 5             |
 | 1.16.2 - 1.16.5   | 6             |
@@ -50,14 +50,12 @@ You can also check these on the [Minecraft Wiki](https://minecraft.wiki/w/Pack_f
 Sample `pack.mcmeta` (you can also see in the example datapack [here](pack.mcmeta)):
 
 ```json
-
 {
-    "pack": {
-      "pack_format": 26,
-      "description": "§6§kM§r §6Made by §3osfanbuff63 §6§kK§r - v1.0.0"
-    }
+  "pack": {
+    "pack_format": 26,
+    "description": "§6§kM§r §6Made by §3osfanbuff63 §6§kK§r - v1.0.0"
+  }
 }
-
 ```
 
 The description key ideally describes your datapack, or its version, or something like that. The above example shows my username (since I created it) and v1.0.0 - showing this is version 1.0.0.
@@ -73,12 +71,10 @@ This template is intended for Minecraft 1.20.3/1.20.4, but you may not want to u
 For example, if you wanted to change to Minecraft 1.20.2, you would change the `pack_format` key to match that:
 
 ```json
-
 {
-    "pack": {
-      "pack_format": 18,
-      "description": "§6§kM§r §6Made by §3osfanbuff63 §6§kK§r - v1.0.0"
-    }
+  "pack": {
+    "pack_format": 18,
+    "description": "§6§kM§r §6Made by §3osfanbuff63 §6§kK§r - v1.0.0"
+  }
 }
-
 ```
