@@ -18,7 +18,7 @@
     {
       "chance": 1.0,
       "output": {
-        "item": "biomesoplenty:cherry_log"
+        "item": "minecraft:cherry_log"
       },
       "minRolls": 2,
       "maxRolls": 4

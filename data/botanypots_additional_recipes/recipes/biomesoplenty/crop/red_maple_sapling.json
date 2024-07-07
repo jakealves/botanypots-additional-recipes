@@ -18,7 +18,7 @@
     {
       "chance": 1.0,
       "output": {
-        "item": "biomesoplenty:red_maple_log"
+        "item": "biomesoplenty:maple_log"
       },
       "minRolls": 2,
       "maxRolls": 4
